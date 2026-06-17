@@ -1,8 +1,154 @@
 <!DOCTYPE html>
 <html>
-    <head><title>Starting Lua</title></head>
-    <body><h3>Lua is a light and simple language to use</h3></body>
-    <body><h3>Let's start with basics</h3></body>
-    <body><h4>-- first print</h4></body>
-    <body><h4>print("Hello World!") -- all functions use () for args</h4></body>
-</html>
+<head>
+    <title>Starting Lua</title>
+</head>
+<body>
+
+    <h1>Lua 5.1 – Tutorial for Beginners</h1>
+
+    <p>
+        Lua is a lightweight and simple scripting language designed to be easy to learn,
+        fast to execute, and flexible to use.
+    </p>
+
+    <hr>
+
+    <h2>What is Lua?</h2>
+
+    <p>
+        Lua is widely used in games, mods, engines, and embedded systems.
+        It is the language used by projects such as HL2SBR and HL2SB++.
+    </p>
+
+    <h3>Key Features</h3>
+
+    <ul>
+        <li>Dynamically typed</li>
+        <li>Garbage collected</li>
+        <li>Fast and lightweight</li>
+        <li>Easy to embed into applications</li>
+    </ul>
+
+    <hr>
+
+    <h2>Basic Syntax</h2>
+
+    <h3>Hello World</h3>
+
+    <pre>
+-- This prints text to the console
+print("Hello World!")
+    </pre>
+
+    <h3>Comments</h3>
+
+    <pre>
+-- Single-line comment
+
+--[[
+Multi-line comment
+]]
+    </pre>
+
+    <hr>
+
+    <h2>Variables</h2>
+
+    <pre>
+x = 10
+name = "Lua"
+isAlive = true
+nothing = nil
+    </pre>
+
+    <h3>Types</h3>
+
+    <ul>
+        <li>nil</li>
+        <li>boolean</li>
+        <li>number</li>
+        <li>string</li>
+        <li>table</li>
+        <li>function</li>
+        <li>userdata</li>
+        <li>thread</li>
+    </ul>
+
+    <pre>
+print(type(10))
+print(type("Hello"))
+print(type(true))
+    </pre>
+
+    <hr>
+
+    <h2>Functions</h2>
+
+    <pre>
+function Add(a, b)
+    return a + b
+end
+
+print(Add(5, 3))
+    </pre>
+
+    <hr>
+
+    <h2>Tables</h2>
+
+    <pre>
+player = {}
+
+player.name = "Gordon"
+player.health = 100
+
+print(player.name)
+    </pre>
+
+    <hr>
+
+    <h2>Loops</h2>
+
+    <h3>for</h3>
+
+    <pre>
+for i = 1, 5 do
+    print(i)
+end
+    </pre>
+
+    <h3>while</h3>
+
+    <pre>
+local i = 1
+
+while i <= 5 do
+    print(i)
+    i = i + 1
+end
+    </pre>
+
+    <hr>
+
+    <h2>Next Steps</h2>
+
+    <p>
+        Now that you know the basics, you can learn about:
+    </p>
+
+    <ul>
+        <li>Tables</li>
+        <li>Functions</li>
+        <li>Metatables</li>
+        <li>Coroutines</li>
+        <li>Object-Oriented Programming</li>
+        <li>Modules and require()</li>
+    </ul>
+
+    <hr>
+
+    <h3>HL2:SB++ Wiki by YourLocalSunny/TheByteSunny</h3>
+
+</body>
+        </html>
